@@ -10,7 +10,7 @@ const port = process.env.PORT || 3000;
 app.use(cors({
   origin: [
     'http://localhost:5173', // Development
-    'https://legalese-simplifier.onrender.com', // Replace with your production domain
+    'https://legalese-simplifier-1.onrender.com', // Replace with your production domain
     'chrome-extension://*' // Allow Chrome extensions
   ],
   methods: ['POST'],
